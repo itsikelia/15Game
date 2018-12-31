@@ -40,7 +40,6 @@ namespace _15Game
         public void createButtonsForNewGame()
         {
             buttons = new Button[15];
-            List<Button> temp = new List<Button>();
             Random r = new Random();
             int top = 25, left = 0, p = 0;//p helps creating 4*4 table
             for (int i = 0; i < 15; i++, p++)
